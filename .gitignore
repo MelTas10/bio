@@ -1,0 +1,33 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files
+pnpm-lock.yaml
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Testing Astro functionality
+src/components/Testing.astro
+
+# Deploy
+.vercel
+
+# WebStorm files
+.idea/
